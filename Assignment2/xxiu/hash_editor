@@ -1,0 +1,1 @@
+awk '{if (length($1) <= 8)  {print $1;}}' ~/桌面/CS7NS1/Assignment2/xxiu/rockyou.txt > newrockyou.txt
